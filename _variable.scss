@@ -1,0 +1,19 @@
+$colors :(
+    green: #69F074,
+    greenblack: #74C846,
+    blue: #689BF4,
+    orange: #FF826B,
+    grey: #EDEDED,
+    violet: #A564EC,
+    pink: #FFBBBA,
+    white: #FFFFFF, 
+);
+
+$breakpoints: (
+    tablette: 1100px,
+    mobile: 767px
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+$font-regular : 'Montserrat', sans-serif;

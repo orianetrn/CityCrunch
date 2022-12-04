@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    width: 30%;
+    margin: 20px;
+
+    @include tablette-only {
+        width: 25%;
+    }
+
+    @include mobile-only {
+        width: 90%;
+    }
+}
+
+.logo-green {
+    width: 200px;
+    
+    @include mobile-only {
+        width: 300px;
+    }
+}

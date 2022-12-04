@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.bg-green {
+  background-color: #69F074;
+}
+
+.bg-greenblack {
+  background-color: #74C846;
+}
+
+.bg-blue {
+  background-color: #689BF4;
+}
+
+.bg-orange {
+  background-color: #FF826B;
+}
+
+.bg-grey {
+  background-color: #EDEDED;
+}
+
+.bg-violet {
+  background-color: #A564EC;
+}
+
+.bg-pink {
+  background-color: #FFBBBA;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+.banderole {
+  padding: 1px;
+}
+@media screen and (max-width: 767px) {
+  .banderole {
+    display: none;
+  }
+}
+
+.texte-banderole {
+  margin-left: 20px;
+}
+
+.img-logo {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.onglet {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 25px;
+  border-right: 1px solid;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.puce {
+  display: inline-block;
+  padding: 1ch;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.title1 {
+  font-size: 30px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carte {
+  width: 30%;
+  margin: 20px;
+}
+@media screen and (max-width: 767px) {
+  .carte {
+    width: 90%;
+  }
+}
+
+.img-size {
+  width: 100%;
+}
+
+.title-carte {
+  margin-left: 10px;
+}
+
+.text-carte {
+  padding-bottom: 15px;
+}
+
+.box-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.title {
+  font-size: 60px;
+  text-align: center;
+}
+
+/*BOX1*/
+.box1 {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.img-box1 {
+  width: 100%;
+}
+
+.texte1 {
+  width: 60%;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-top: -70px;
+}
+@media screen and (max-width: 767px) {
+  .texte1 {
+    width: 90%;
+    margin-top: 0px;
+  }
+}
+
+/*BOX2*/
+.box2 {
+  margin-top: 100px;
+}
+
+/*BOX3*/
+.title-box3 {
+  margin-left: 7%;
+  padding-top: 30px;
+}
+
+/*BOX4*/
+.box4 {
+  width: 100%;
+}
+
+.img-box4 {
+  width: 100%;
+}
+
+/*BOX5*/
+.title-box5-1 {
+  margin: 0;
+}
+
+/*BOX6*/
+.carte-4 {
+  width: 20%;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 767px) {
+  .carte-4 {
+    width: 90%;
+  }
+}
+
+/*BOX7*/
+.box7 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-b7 {
+  width: 30%;
+  margin-left: 200px;
+}
+
+.chroniqueur {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.lien {
+  margin: 5px;
+}
+.lien a:hover {
+  color: white;
+}
+
+.text-activite {
+  margin: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  width: 30%;
+  margin: 20px;
+}
+@media screen and (max-width: 1100px) {
+  .section {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section {
+    width: 90%;
+  }
+}
+
+.logo-green {
+  width: 200px;
+}
+@media screen and (max-width: 767px) {
+  .logo-green {
+    width: 300px;
+  }
+}/*# sourceMappingURL=main.css.map */
